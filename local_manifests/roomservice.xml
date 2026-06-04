@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Main default remote to keep the sync tool happy -->
+  <remote name="github-direct" fetch="https://github.com" />
+
+  <!-- MSM8916 Platform Core Drivers & Common Logic -->
+  <project name="Galaxy-MSM8916/android_kernel_samsung_msm8916" path="kernel/samsung/msm8916" remote="github-direct" revision="lineage-16.0" />
+  <project name="Galaxy-MSM8916/android_device_samsung_msm8916-common" path="device/samsung/msm8916-common" remote="github-direct" revision="lineage-16.0" />
+  
+  <!-- Core Prime LTE Device Target Configurations (Explicit Absolute Direct Path) -->
+  <project name="Galaxy-MSM8916/android_device_samsung_coreprimeelte" path="device/samsung/coreprimeelte" remote="github-direct" revision="lineage-16.0" />
+  
+  <!-- Proprietary Vendor Blob Framework -->
+  <project name="Galaxy-MSM8916/proprietary_vendor_samsung" path="vendor/samsung" remote="github-direct" revision="lineage-16.0" />
+</manifest>
